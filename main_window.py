@@ -45,7 +45,7 @@ class MainWindow(QMainWindow):
         self.timer.start()
 
         self.signal = QLabel()
-        self.signal.setFixedSize(230, 100)
+        self.signal.setFixedSize(700, 100)
         self.signal.setProperty('earthquake', 'yes')
 
         icon = QIcon(resource_path('images/Логотип-Гора.ico'))
@@ -73,11 +73,11 @@ class MainWindow(QMainWindow):
 
         self.info_label = QLabel()
         self.info_label.setProperty('instance', 'connecting')
-        self.info_label.setFixedSize(230, 100)
+        self.info_label.setFixedSize(700, 100)
 
         self.status_label = QLabel()
         self.status_label.setProperty('instance', 'off')
-        self.status_label.setFixedSize(230, 100)
+        self.status_label.setFixedSize(700, 100)
 
         self.info_label.setObjectName("infoLabel")
         self.status_label.setObjectName("statusLabel")
