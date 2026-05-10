@@ -1,0 +1,3 @@
+#statusLabel[instance="off"] { }
+
+#statusLabel[instance="on"] { border-image: url(PATH_TO_IMAGE); }

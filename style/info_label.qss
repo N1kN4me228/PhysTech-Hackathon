@@ -1,0 +1,3 @@
+#infoLabel[instance="connecting"] { border-image: url(CONNECTING); }
+
+#infoLabel[instance="connected"] { border-image: url(CONNECTED); }

@@ -1,0 +1,7 @@
+#signalLabel[earthquake="yes"] {
+    border-image: url(YES);
+}
+
+#signalLabel[earthquake="no"] {
+    border-image: url(NO);
+}
